@@ -1,0 +1,159 @@
+html,body{
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.headerName{
+	background-color:#99375e;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+header img{
+	border-radius: 180px;
+	width: 300px;
+	border: 24ps solid #CC0000;
+}
+.content {
+	max-width: 100%;
+	margin: 0 auto ;
+	padding: 0 ;
+	background-color:#932143;
+
+}
+
+img.big-image{
+	max-width: 100%;
+	border-radius: 20px;
+}
+p.caption{
+	font-size: 16px ;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color:#932143 ;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+footer{
+	
+	background-color: #E6E6E6;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul il{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+hr{
+	border-top: 1px solid floralwhite;
+}
+
+.content{
+	width: 100%;
+}
+
+#big-image{
+	margin-top: 20px;
+	background-color:#7f1d36;
+	margin-top: 10px;
+	padding: 0px 20px 20px 20px;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+
+#firstSection{
+	margin-top: 10px;
+	padding: 0px 20px 20px 20px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	color: white;
+	background-color: #7f1d36;
+}
+
+#firstContent{
+	text-align: justify;
+	justify-content: center;
+}
+
+.charList{
+	text-align: justify;
+	justify-content: center;
+	margin-top: 10px;
+	padding: 0px 20px 20px 20px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	color: white ;
+	background-color: #7f1d36;
+}
+
+#quote{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 30px;
+	color: lightgrey;
+	font-size: 15px;
+	font-style: italic;
+	font-family: cursive;
+}
+
+.friendListWrapper{
+	text-align: center;
+	justify-content: center;
+	margin-top: 10px;
+	padding: 0px 20px 20px 20px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	color: white;
+	background-color: #7f1d36;
+}
+
+.friendListItem{
+	justify-content: center;
+	background-color: #7f1d36;
+	color: white;
+}
+
+.friendListDiv{
+	display: flex;
+	flex-direction: column ;
+	align-items: center;
+}
+
+.imgFriendList{
+	object-fit: cover;
+	width: 100px;
+	max-height: 100px;
+	border-radius: 180px;
+	display: flex;
+	text-align: center;
+}
+
+.friendListText{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
